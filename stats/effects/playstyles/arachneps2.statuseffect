@@ -1,0 +1,6 @@
+{
+	"name" : "arachneps2",
+	"effectConfig" : {},
+	"defaultDuration" : 5,
+	"scripts" : [ "arachneps2.lua" ]
+}

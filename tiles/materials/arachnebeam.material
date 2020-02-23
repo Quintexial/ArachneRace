@@ -1,0 +1,25 @@
+{
+  "materialId" : 3605,
+  "materialName" : "arachnebeam",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "arachnebeamitem",
+  "description" : "A silk-metal beam used in ship construction.",
+  "shortdescription" : "Arachne Beam",
+  "arachneDescription" : "Standard support beam used in ships.",
+  "glitchDescription" : "Informed. Supports like this are often used in ship construction.",
+  "floranDescription" : "Ssship sstructural ssupport.",
+  "novakidDescription" : "Made for holdin' spaceships together.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "arachnebeam.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 3190
+  }
+}

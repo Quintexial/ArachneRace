@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "silverore", "count" : 1 },
+    { "item" : "arachnesilkresource", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "silkbar",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace", "bars", "all" ]
+}

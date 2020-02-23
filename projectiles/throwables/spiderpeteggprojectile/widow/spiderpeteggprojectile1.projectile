@@ -1,0 +1,165 @@
+{
+  "projectileName" : "spiderpeteggprojectile1",
+  "image" : "spiderpeteggprojectile1.png",
+  "animationCycle" : 0.25,
+  "physics" : "grenade",
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "speed" : 40,
+  "power" : 0.1,
+  "damageKind" : "default",
+  "emitters" : [ ],
+  "bounces" : -1,
+  "piercing" : true,
+  "pureArcDuration" : 1,
+  "returnCollisionDuration" : 2,
+  "orientationLocked" : true,
+  "timeToLive" : 0.1,
+
+  "scripts" : [ "spiderpeteggprojectile1.lua" ],
+
+  "returns" : false,
+  "returnCollisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+  "collisionPoly" : [ [ -1, -1 ], [ 1, -1 ], [ 1, 1 ], [ -1, 1 ] ],
+
+  "controlForce" : 80,
+  "pickupDistance" : 1.0,
+  "snapDistance" : 4.0,
+  "gardenspider" : 3,
+
+  "podUuid" : null,
+  "params1" : {
+		"currentPets": [
+            {
+                "config": {
+                    "parameters": {
+                        "aggressive": true,
+                        "familyIndex": 0,
+                        "level": 3.0
+                    },
+                    "type": "widowspider"
+                },
+                "description": "^red;Black widow",
+                "persistent": false,
+                "podUuid": "150b2a75e8fe1217ceb5ddbd20b16415",
+                "portrait": [
+                    {
+                        "color": [
+                            255,
+                            255,
+                            255
+                        ],
+                        "fullbright": false,
+                        "image": "/monsters/spiderlings/widow/widowspider.png:idle.1?",
+                        "position": [
+                            0.0,
+                            4.0
+                        ],
+                        "transformation": [
+                            [
+                                -1.0,
+                                0.0,
+                                18.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                -12.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                ]
+                
+            }
+        ],
+        "description": "^red;Black widow",
+        "inventoryIcon": "/items/active/unsorted/spiderpetegg1a/spiderpetegg1aicon.png",
+        "pets": [
+            {
+                "config": {
+                    "parameters": {
+                        "aggressive": true,
+                        "familyIndex": 0,
+                        "level": 3.0
+                    },
+                    "type": "widowspider"
+                },
+                "description": "^red;Black widow",
+                "portrait": [
+                    {
+                        "color": [
+                            255,
+                            255,
+                            255
+                        ],
+                        "fullbright": false,
+                        "image": "/monsters/spiderlings/widow/widowspider.png:idle.1?",
+                        "position": [
+                            0.0,
+                            4.0
+                        ],
+                        "transformation": [
+                            [
+                                -1.0,
+                                0.0,
+                                18.0
+                            ],
+                            [
+                                0.0,
+                                1.0,
+                                -12.0
+                            ],
+                            [
+                                0.0,
+                                0.0,
+                                1.0
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ],
+        "podItemHasPriority": false,
+        "podUuid": "150b2a75e8fe1217ceb5ddbd20b16415",
+        "tooltipFields": {
+            "objectImage": [
+                {
+                    "color": [
+                        255,
+                        255,
+                        255
+                    ],
+                    "fullbright": false,
+                    "image": "/monsters/spiderlings/widow/widowspider.png:idle.1?",
+                    "position": [
+                        0.0,
+                        4.0
+                    ],
+                    "transformation": [
+                        [
+                            -1.0,
+                            0.0,
+                            18.0
+                        ],
+                        [
+                            0.0,
+                            1.0,
+                            -12.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ]
+                }
+            ],
+            "subtitle": "Spiderling"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 3602,
+  "materialName" : "arachnepanel",
+  "particleColor" : [250, 250, 250, 180],
+  "itemDrop" : "arachnepanelitem",
+  "description" : "Ship panels made of a metal and silk composite. ",
+  "shortdescription" : "Arachne Ship Panels",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "arachnepanel.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "materialId" : 3612,
+  "materialName" : "arachnesilkblock3",
+  "particleColor" : [212, 205, 174, 205],
+  "itemDrop" : "arachnesilkblock3item",
+  "description" : "A less-compacted mass of silk.",
+  "shortdescription" : "Non-Solid Silk Block",
+  "footstepSound" : "/sfx/blocks/footstep_ash.ogg",
+  "health" : 7,
+  "category": "materials",
+  "collisionKind": "none",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "arachnesilkblock3.png",
+    "variants" : 4,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 385
+  }
+}

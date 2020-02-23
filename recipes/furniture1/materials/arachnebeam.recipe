@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "silkbar", "count" : 1 }
+  ],
+  "output" : { "item" : "arachnebeamitem", "count" : 20 },
+  "duration" : 0.25,
+  "groups"  : [ "craftingfurniture", "materials", "all" ]
+}

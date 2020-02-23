@@ -1,0 +1,143 @@
+[
+	{"op" : "add", 
+	 "path" : "/items/arachne", 
+	 "value" : [
+      [0, [
+          {
+            "head" : [ { "name" : "arachnetier1head" } ],
+            "chest" : [ { "name" : "arachnetier1chest" } ],
+            "legs" : [ { "name" : "arachnetier1pants" } ],
+            "primary" : [ "npcassaultrifle" ],
+            "sheathedprimary" : [ "npcbroadsword" ]
+          }
+        ] ],
+      [2, [ 
+          {
+            "head" : [ { "name" : "arachnetier2head" } ],
+            "chest" : [ { "name" : "arachnetier2chest" } ],
+            "legs" : [ { "name" : "arachnetier2pants" } ],
+            "primary" : [
+              "npcpistol",
+              "npcmachinepistol",
+              "npcassaultrifle"
+            ],
+            "sheathedprimary" : [
+              "npcbroadsword"
+            ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "arachnetier3head" } ],
+            "chest" : [ { "name" : "arachnetier3chest" } ],
+            "legs" : [ { "name" : "arachnetier3pants" } ],
+            "primary" : [
+              "npcpistol",
+              "npcmachinepistol",
+              "npcassaultrifle"
+            ],
+            "sheathedprimary" : [
+              "npcbroadsword"
+            ]
+          }
+        ] ],
+      [4, [
+          {
+            "head" : [ { "name" : "arachnetier4head" } ],
+            "chest" : [ { "name" : "arachnetier4chest" } ],
+            "legs" : [ { "name" : "arachnetier4pants" } ],
+            "primary" : [
+              "npcpistol",
+              "npcmachinepistol",
+              "npcassaultrifle"
+            ],
+            "sheathedprimary" : [
+              "npcbroadsword"
+            ]
+          }
+        ] ],
+		[5, [
+          {
+            "head" : [ { "name" : "arachnetier5head" } ],
+            "chest" : [ { "name" : "arachnetier5chest" } ],
+            "legs" : [ { "name" : "arachnetier5pants" } ],
+            "primary" : [
+              "npcpistol",
+              "npcmachinepistol",
+              "npcassaultrifle"
+            ],
+            "sheathedprimary" : [
+              "npcbroadsword"
+            ]
+          },
+		  {
+            "head" : [ { "name" : "arachnetier5manhead" } ],
+            "chest" : [ { "name" : "arachnetier5manchest" } ],
+            "legs" : [ { "name" : "arachnetier5manpants" } ],
+            "primary" : [
+              "npcpistol",
+              "npcmachinepistol",
+              "npcassaultrifle"
+            ],
+            "sheathedprimary" : [
+              "npcbroadsword"
+            ]
+          },
+		  {
+            "head" : [ { "name" : "arachnetier5sephead" } ],
+            "chest" : [ { "name" : "arachnetier5sepchest" } ],
+            "legs" : [ { "name" : "arachnetier5seppants" } ],
+            "primary" : [
+              "npcpistol",
+              "npcmachinepistol",
+              "npcassaultrifle"
+            ],
+            "sheathedprimary" : [
+              "npcbroadsword"
+            ]
+          }
+        ] ],
+		[6, [
+          {
+            "head" : [ { "name" : "arachnetier6head" } ],
+            "chest" : [ { "name" : "arachnetier6chest" } ],
+            "legs" : [ { "name" : "arachnetier6pants" } ],
+            "primary" : [
+              "npcpistol",
+              "npcmachinepistol",
+              "npcassaultrifle"
+            ],
+            "sheathedprimary" : [
+              "npcbroadsword"
+            ]
+          },
+		  {
+            "head" : [ { "name" : "arachnetier6sephead" } ],
+            "chest" : [ { "name" : "arachnetier6sepchest" } ],
+            "legs" : [ { "name" : "arachnetier6seppants" } ],
+            "primary" : [
+              "npcpistol",
+              "npcmachinepistol",
+              "npcassaultrifle"
+            ],
+            "sheathedprimary" : [
+              "npcbroadsword"
+            ]
+          },
+          {
+            "head" : [ { "name" : "arachnetier6manhead" } ],
+            "chest" : [ { "name" : "arachnetier6manchest" } ],
+            "legs" : [ { "name" : "arachnetier6manpants" } ],
+            "primary" : [
+              "npcpistol",
+              "npcmachinepistol",
+              "npcassaultrifle"
+            ],
+            "sheathedprimary" : [
+              "npcbroadsword"
+            ]
+          }
+        ] ]
+    ]
+	}
+]

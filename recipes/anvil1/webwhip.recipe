@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "arachnesilkresource", "count" : 25 },
+    { "item" : "ironbar", "count" : 2 }
+  ],
+  "output" : { "item" : "webwhip", "count" : 1 },
+  "groups" : [ "webloom", "craftinganvil", "weapons", "all" ]
+}

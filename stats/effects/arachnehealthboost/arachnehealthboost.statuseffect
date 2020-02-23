@@ -1,0 +1,11 @@
+{
+  "name" : "arachnehealthboost",
+  "effectConfig" : {
+    "healthAmount" : 25
+  },
+  "defaultDuration" : 20,
+
+  "scripts" : [
+    "arachnehealthboost.lua"
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  {
+	"op": "add",
+	"path": "/swordwarp",
+	"value": "/items/active/weapons/melee/abilities/broadsword/swordwarp/swordwarp.weaponability"
+  }
+]

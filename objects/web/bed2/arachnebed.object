@@ -1,0 +1,55 @@
+{
+  "objectName": "arachnebed",
+  "colonyTags" : ["misc", "arachne"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 125,
+  "description" : "A silky, normal bed.",
+  "shortdescription" : "Arachne Bed",
+  
+  "apexDescription" : "A bed made from sturdy, yet soft, spider silk. Probably wondrously comfortable.",
+  "arachneDescription" : "A more traditionally designed bed for most humanoid guests, they find it a little less unsettling. Mostly.",
+  "avaliDescription" : "Hunh, a bed designed for humans. How considerate, if maybe a little wasteful.",
+  "avianDescription" : "A bed made from non-sticky silk and web fibers. Safe for even me to sleep in.",
+  "floranDescription" : "Sssoft bed for Floran. Dream of bug meatss.",
+  "glitchDescription" : "Delighted. A more standard bed, woven by an Arachne. It must be quite soft!",
+  "humanDescription" : "Heeeey, the Arachne were thinking of me! I'm not... sure if I should be creeped out.",
+  "hylotlDescription" : "A woven bed made in a more standard style. I don't think I'll get stuck in this.",
+  "novakidDescription" : "Well I'll be! A 'rachne bed designed for a fella like me!",
+  
+  "race" : "arachne",
+  "printable" : false,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitEmote" : "sleep",
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+   "sitStatusEffects" : [
+    "bed3"
+  ],
+  "inventoryIcon" : "arachnebedicon.png",
+  "orientations" : [
+
+    {
+      "image" : "arachnebed.png:<color>",
+      "sitCoverImage" : "/objects/web/bed2/arachnebedcover.png",
+      "flipImages" : true,
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+      "direction" : "left",
+      "sitPosition" : [-0.5, 25]
+    },
+    {
+      "image" : "arachnebed.png:<color>",
+      "sitCoverImage" : "/objects/web/bed2/arachnebedcover.png",
+      "imagePosition" : [-16, 0],
+      "spaceScan" : 0.1,
+      "anchors" : ["bottom"],
+      "direction" : "right",
+      "sitPosition" : [7.5, 25]
+    }
+  ]
+}

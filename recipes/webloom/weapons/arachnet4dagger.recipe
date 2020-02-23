@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "silkbar", "count" : 3 },
+    { "item" : "durasteelbar", "count" : 2},
+    { "item" : "arachnedagger3", "count" : 1},
+    { "item" : "venomsample", "count" : 2}
+  ],
+  "output" : { "item" : "arachnedagger4", "count" : 1 },
+  "groups" : [ "webloom", "weapons", "all" ]
+}

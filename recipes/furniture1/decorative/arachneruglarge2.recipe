@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "arachnesilkresource", "count" : 60 },
+    { "item" : "fabric", "count" : 8},
+    { "item" : "reddye", "count" : 1}
+  ],
+  "output" : { "item" : "arachneruglarge2", "count" : 1 },
+  "groups" : [ "webloom", "furniture", "craftingfurniture", "decoration", "all" ]
+}

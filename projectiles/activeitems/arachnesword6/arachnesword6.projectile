@@ -1,0 +1,21 @@
+{
+  "projectileName" : "arachnesword6",
+  "physics" : "arachnesword6",
+  "bounces" : 0,
+  "image" : "arachnesword6.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "flippable" : true,
+  "fullbright" : false,
+  "power" : 20,
+  "damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ],
+  "knockback" : 10,
+  "piercing" : true,
+  "knockbackDirectional" : true,
+  "timeToLive" : 3,
+  "supportsProcessing" : true,
+  "damageKind" : "default",
+  "hydrophobic" : false,
+
+  "scripts" : ["/projectiles/scripts/arachnesword6.lua"]
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "arachnewebplatformitem",
+  "price" : 0,
+  "category" : "platform",
+  "rarity" : "Common",
+  "inventoryIcon" : "arachnewebplatformitem.png",
+  "description" : "A silken platform.",
+  "shortdescription" : "Arachne Web Platform",
+  "materialId" : 3613
+
+}

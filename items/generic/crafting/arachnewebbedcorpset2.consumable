@@ -1,0 +1,23 @@
+{
+  "itemName" : "arachnewebbedcorpset2",
+  "price" : 3,
+  "rarity" : "Common",
+  "category" : "food",
+  "inventoryIcon" : "arachnewebbedcorpset2.png",
+  "description" : "It's a corpse, all webbed up.\nTier: 2",
+  "shortdescription" : "Webbed Corpse",
+  "foodValue" : 15,
+  "toolTipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 0.5,
+  "effects" : [ [
+      {
+        "effect" : "arachnefood"
+      }
+    ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

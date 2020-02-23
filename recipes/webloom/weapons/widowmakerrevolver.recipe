@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "silkbar", "count" : 4 },
+    { "item" : "durasteelbar", "count" : 3},
+    { "item" : "solariumstar", "count" : 4},
+    { "item" : "refinedaegisalt", "count" : 3}
+  ],
+  "output" : { "item" : "widowmakerrevolver", "count" : 1 },
+  "groups" : [ "webloom", "weapons", "all" ]
+}

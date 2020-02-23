@@ -1,0 +1,10 @@
+{
+  "itemName" : "arachneblockitem",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "arachneblockitem.png",
+  "description" : "Plating made from a metal and silk composite.",
+  "shortdescription" : "Arachne Plating",
+
+  "materialId" : 3601
+}

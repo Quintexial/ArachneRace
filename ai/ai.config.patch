@@ -1,0 +1,10 @@
+[
+	{ "op" : "add",
+		"path" : "/species/arachne",
+		"value" : {
+			"aiFrames" : "arachneai.png",
+			"portraitFrames" : "portraits/arachneportrait.png",
+			"staticFrames" : "staticarachne.png"
+		}
+	}
+]

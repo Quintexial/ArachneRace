@@ -1,0 +1,58 @@
+{
+  "itemName" : "webwhip",
+  "price" : 1000,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A whip made from spider silk. Get cracking!",
+  "shortdescription" : "Web Whip",
+  "tooltipKind" : "sword",
+  "category" : "whip",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","upgradeableWeapon"],
+
+  "inventoryIcon" : "webwhip.png:idle",
+  "animation" : "whip.animation",
+  "animationParts" : {
+    "weapon" : "webwhip.png",
+    "weaponFullbright" : ""
+  },
+  "animationCustom" : {
+   "particleEmitters" : { "crack" : { "particles" : [ ]}},
+    "sounds" : {
+      "swing" : [ "/sfx/melee/whip_swing1.ogg", "/sfx/melee/whip_swing2.ogg", "/sfx/melee/whip_swing3.ogg" ],
+      "crack" : [ "/sfx/melee/whip_impact1.ogg", "/sfx/melee/whip_impact2.ogg", "/sfx/melee/whip_impact3.ogg" ]
+    }
+  },
+
+  "chain" : {
+    "startOffset" : [0.625, 0.0625],
+    "length" : [3, 14],
+    "segmentImage" : "/items/active/weapons/whip/weblink.png",
+    "endSegmentImage" : "/items/active/weapons/whip/weblinkend.png",
+    "segmentSize" : 0.375
+  },
+
+  "scripts" : [ "whip.lua" ],
+  
+  "primaryAbilityType" : "whipcrack",
+  "primaryAbility" : {
+    "fireTime" : 1.0,
+    "chainDps" : 1.0,
+    "crackDps" : 4.5
+
+  },
+
+  "builder" : "/items/buildscripts/buildwhip.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "webwhip_l6.png:idle",
+    "animationParts" : {
+      "weapon" : "webwhip_l6.png"
+    },
+  "chain" : {
+    "endSegmentImage" : "/items/active/weapons/whip/weblinkend_l6.png"
+  },
+    "shortdescription" : "Web Whip ^yellow;^reset;"
+  }
+}

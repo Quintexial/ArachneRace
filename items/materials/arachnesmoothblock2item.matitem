@@ -1,0 +1,10 @@
+{
+  "itemName" : "arachnesmoothblock2item",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "arachnesmoothblock2item.png",
+  "description" : "A block for lining walls.",
+  "shortdescription" : "Arachne Colored Cornering",
+
+  "materialId" : 3604
+}

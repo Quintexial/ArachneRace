@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "arachnesilkresource", "count" : 25}
+  ],
+  "output" : {
+    "item" : "arachnewebbingitem",
+    "count" : 10
+  },
+  "groups" : [ "webloom", "weapons" ]
+}

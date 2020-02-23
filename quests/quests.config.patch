@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/arachne",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/arachne",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

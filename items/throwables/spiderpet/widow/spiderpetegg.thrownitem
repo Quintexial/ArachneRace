@@ -1,0 +1,30 @@
+{
+  "itemName" : "spiderpetegg",
+  "price" : 750,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "spiderpetegg.png",
+  "image" : "spiderpetegg.png",
+  "shortdescription" : "Spiderling Egg",
+  "description" : "^red;Black widow",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "spiderpeteggprojectile1",
+  "projectileConfig" : {
+    "speed" : 40,
+    "level" : 7,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "objectName" : "arachnelargetable",
+  "colonyTags" : ["arachne", "misc"],
+  "printable" : true,
+  "rarity" : "Common",
+  "description" : "A large silky table.",
+  "shortdescription" : "Arachne Table",
+  
+  "apexDescription" : "A surprisingly stylistic table, provided you don't mind a bit of webbing on your meal.",
+  "arachneDescription" : "This table affords plenty of leg space!",
+  "avaliDescription" : "I can barely see over this table! Granted, the Arachne are freakishly tall.",
+  "avianDescription" : "I'll pass on a meal eaten at this table, thanks.",
+  "floranDescription" : "A table for eating bug meatsss.",
+  "glitchDescription" : "Amused. A table fit for a king's castle. If that castle were abandoned and overrun by spiders.",
+  "humanDescription" : "This is actually kind of a nice table.",
+  "hylotlDescription" : "A finely designed table, if lacking in colour and... dine-ability",
+  "novakidDescription" : "I think I see trapped bugs on the surface...",
+  
+  "race" : "arachne",
+  "category" : "furniture",
+  "price" : 145,
+
+  "inventoryIcon" : "/objects/web/largetable/arachnelargetableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "/objects/web/largetable/arachnelargetable.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

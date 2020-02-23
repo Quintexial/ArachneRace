@@ -1,0 +1,45 @@
+{
+  "objectName" : "arachnewebchest",
+  "colonyTags" : ["arachne","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 70,
+  "description" : "A silky pod chest.",
+  "shortdescription" : "Web Chest",
+  
+  "apexDescription" : "A, uh, chest, I suppose. I hope I don't find body parts inside.",
+  "arachneDescription" : "A simple web chest, for hunters on the go. Designed to be easily picked up and carried on one's back.",
+  "avaliDescription" : "Nope. Nope, nope, nope, nope, nope, nope, nope!",
+  "avianDescription" : "I could open this. If I were brave enough.",
+  "floranDescription" : "Floran open cocoon, take preserved meatsss.",
+  "glitchDescription" : "Hesitant. I do not wish to open this chest.",
+  "humanDescription" : "Eugh, that's unsettling. Oooagh, I don't wanna open it, uuuuuugh.",
+  "hylotlDescription" : "How barbaric. One would think the spider folk would use a less disturbing method of storage.",
+  "novakidDescription" : "That there's a misleadin' way to store yer effects.",
+  
+  "race" : "generic",
+  "health" : 1.5,
+
+  "inventoryIcon" : "arachnewebchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "arachnewebchest.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

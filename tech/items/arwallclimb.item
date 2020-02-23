@@ -1,0 +1,12 @@
+{
+  "itemName" : "arwallclimb_tech",
+  "rarity" : "rare",
+  "price" : 100,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "techcard_legs2.png",
+  "description" : "An Arachne-specific wall jump! Lets you climb walls.",
+  "shortdescription" : "^#77acc3;Wall Climb^reset;",
+    "pickupQuestTemplates" : [ "arwallclimb" ],
+  "consumeOnPickup" : true,
+  "itemTags" : [ "trophy" ]
+}

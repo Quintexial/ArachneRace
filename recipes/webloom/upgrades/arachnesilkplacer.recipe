@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "silkbar", "count" : 2 },
+    { "item" : "siliconboard", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "arachnesilkplacer",
+    "count" : 1
+  },
+  "groups" : [ "webloom", "upgrades", "all" ]
+}

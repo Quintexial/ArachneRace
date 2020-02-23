@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "arachnedarkdisguiselegs", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "darkdisguiselegs", "count" : 1 },
+  "groups" : [ "webloom", "armours" ]
+}

@@ -1,0 +1,52 @@
+{
+  "itemName" : "arachnet4spear",
+  "price" : 0,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "description" : "Light as a feather, hard as steel. Tipped with a poison blade.
+ ^cyan;Inflicts poison^reset;",
+  "shortdescription" : "Silk Poison Spear",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+  
+  "inventoryIcon" : "arachnet4spear.png",
+  "animation" : "spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "arachnet4spear.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "poison",
+
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "scripts" : [],
+
+    "fireTime" : 0.9,
+    "baseDps" : 12,
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "knockback" : 10
+    }
+  },
+  "altAbilityType" : "elementalspin",
+  "altAbility" : { },
+
+  "critChance" : 2,
+  "critBonus" : 7,
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "learnBlueprintsOnPickup" : [ "arachnet5spear" ]
+}

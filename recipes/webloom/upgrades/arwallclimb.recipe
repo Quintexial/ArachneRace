@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 4 },
+    { "item" : "silverbar", "count" : 4 },
+    { "item" : "siliconboard", "count" : 12 }
+  ],
+  "output" : {
+    "item" : "arwallclimb_tech",
+    "count" : 1
+  },
+  "groups" : [ "webloom", "upgrades", "all" ]
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "webbomb",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "webbomb.png",
+  "image" : "webbomb.png",
+  "shortdescription" : "Web Bomb",
+  "description" : "A great way to blow stuff up. Sticks to surfaces.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "webbomb",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 40,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

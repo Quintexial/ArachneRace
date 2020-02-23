@@ -1,0 +1,23 @@
+{
+  "materialId" : 3603,
+  "materialName" : "arachnesmoothblock",
+  "particleColor" : [114, 22, 0, 180],
+  "itemDrop" : "arachnesmoothblockitem",
+  "description" : "A block for lining walls",
+  "shortdescription" : "Arachne Smooth Cornering",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "arachnesmoothblock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1000
+  }
+}

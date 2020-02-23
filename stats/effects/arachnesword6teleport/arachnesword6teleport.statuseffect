@@ -1,0 +1,12 @@
+{
+  "name" : "arachnesword6teleport",
+  "effectConfig" : {
+  },
+  "defaultDuration" : 0.5,
+
+  "scripts" : [
+    "arachnesword6teleport.lua"
+  ],
+
+  "animationConfig" : "arachnesword6teleport.animation"
+}

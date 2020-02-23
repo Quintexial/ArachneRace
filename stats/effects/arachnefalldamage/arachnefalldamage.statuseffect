@@ -1,0 +1,6 @@
+{
+	"name" : "arachnefalldamage",
+	"effectConfig" : {},
+	"defaultDuration" : 5,
+	"scripts" : [ "arachnefalldamage.lua" ]
+}

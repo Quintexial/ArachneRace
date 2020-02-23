@@ -1,0 +1,27 @@
+{
+  "materialId" : 3606,
+  "materialName" : "arachnegirder",
+  "frames" : "arachnegirder.png",
+  "particleColor" : [110, 110, 110, 255],
+  "variants" : 1,
+  "itemDrop" : "arachnegirderitem",
+  "description" : "A silk-metal girder used in ship construction.",
+  "shortdescription" : "Arachne Girder",
+  "arachneDescription" : "Standard girder used in ships.",
+  "glitchDescription" : "Informed. Supports like this are often used in ship construction.",
+  "floranDescription" : "Ssship sstructural ssupport.",
+  "novakidDescription" : "Made for holdin' spaceships together.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "arachnegirder.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 3340
+  }
+}

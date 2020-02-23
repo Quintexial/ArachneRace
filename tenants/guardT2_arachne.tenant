@@ -1,0 +1,28 @@
+{
+  "name": "guardT2_arachne",
+  "priority": 7,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "arachne": 8,
+    "combat": 8,
+    "tier2": 12
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": "arachne",
+      "level": 2,
+      "type": "arachneguard",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "villagerGift"
+  }
+}

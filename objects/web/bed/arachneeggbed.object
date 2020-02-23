@@ -1,0 +1,55 @@
+{
+  "objectName": "arachneeggbed",
+  "colonyTags" : ["arachne", "misc"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 125,
+  "description" : "A silky egg-shaped bed.",
+  "shortdescription" : "Arachne Egg Bed",
+  
+  "apexDescription" : "A hanging cocoon. Perhaps it's for the best I do not enter it.",
+  "arachneDescription" : "A suspended cocoon bed. Nothing beats resting on a sturdy nest of webbing!",
+  "avaliDescription" : "If I climb into that, I'm never getting out again. For better or worse.",
+  "avianDescription" : "My feathers and this cocoon will not mix.",
+  "floranDescription" : "A meat container!",
+  "glitchDescription" : "Unsettled. A large cocoon, please tell me it is empty.",
+  "humanDescription" : "Ooooh, that's creepy. Wait, don't tell me they SLEEP in this!?",
+  "hylotlDescription" : "An unsightly cocoon. I believe the spider folk rest in these.",
+  "novakidDescription" : "Eugh. I like them 'rachne folk, but I'll pass on their beds.",
+  
+  "race" : "arachne",
+  "printable" : false,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitEmote" : "sleep",
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+   "sitStatusEffects" : [
+    "bed3"
+  ],
+  "inventoryIcon" : "arachneeggbedicon.png",
+  "orientations" : [
+
+    {
+      "image" : "arachneeggbed.png:<color>",
+      "sitCoverImage" : "/objects/web/bed/arachneeggbedcover.png",
+      "flipImages" : true,
+      "imagePosition" : [-24, 0],
+      "spaceScan" : 0.1,
+      "anchors" : ["top"],
+      "direction" : "left",
+      "sitPosition" : [9.8, 33]
+    },
+    {
+      "image" : "arachneeggbed.png:<color>",
+      "sitCoverImage" : "/objects/web/bed/arachneeggbedcover.png",
+      "imagePosition" : [-24, 0],
+      "spaceScan" : 0.1,
+      "anchors" : ["top"],
+      "direction" : "right",
+      "sitPosition" : [-5.8, 33]
+    }
+  ]
+}

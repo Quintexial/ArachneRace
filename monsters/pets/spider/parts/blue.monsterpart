@@ -1,0 +1,9 @@
+{
+  "name" : "blue",
+  "category" : "arachnespiderpet",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "blue.png"
+  }
+}

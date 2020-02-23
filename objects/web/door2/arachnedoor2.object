@@ -1,0 +1,61 @@
+{
+  "objectName" : "arachnedoor2",
+  "colonyTags" : ["arachne", "door"],
+  "rarity" : "Common",
+  "printable" : true,
+  "category" : "door",
+  "price" : 95,
+  "description" : "A silky web door.",
+  "shortdescription" : "Arachne Door (Reverse)",
+  "race" : "arachne",
+
+  "inventoryIcon" : "arachnedoor2icon.png",
+
+  "apexDescription" : "Is this a door, or a trap?",
+  "arachneDescription" : "A quickly made web door. Do be careful, it is a little sticky.",
+  "avaliDescription" : "Well, that's a really good way of keeping people out, I suppose.",
+  "avianDescription" : "This is a door!?",
+  "floranDescription" : "Floran not sscared by creepy web door!",
+  "glitchDescription" : "Scrutinizing. Though it appears to be made of adhesive webbing, this door is perfectly safe to walk through.",
+  "humanDescription" : "Ew. Ew. Ew. Ew. Ew.",
+  "hylotlDescription" : "I'm... hesitant, to see what lies beyond this doorway.",
+  "novakidDescription" : "Now there's a door only the 'venturous would strut through.",
+  
+  "tooltipKind" : "door",
+  "largeImage" : "arachnedoor2.png:right",
+  
+  "orientations" : [
+    {
+      "dualImage" : "arachnedoor2.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/fleshdoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/fleshdoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "arachnedoor2.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

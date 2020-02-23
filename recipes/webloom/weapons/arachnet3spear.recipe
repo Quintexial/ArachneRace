@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "silkbar", "count" : 3 },
+    { "item" : "titaniumbar", "count" : 3 },
+    { "item" : "arachnet2spear", "count" : 1}
+  ],
+  "output" : { "item" : "arachnet3spear", "count" : 1 },
+  "groups" : [ "webloom", "weapons", "all", "upgrades" ]
+}

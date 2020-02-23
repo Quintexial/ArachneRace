@@ -1,0 +1,14 @@
+{
+  "name" : "arachnegivesilk",
+  "effectConfig" : {
+  },
+  
+  "defaultDuration" : 1,
+
+  "scripts": [
+    "arachnegivesilk.lua"
+  ],
+  "label" : "Spiders' silk",
+  "icon" : "/interface/statuses/arachnespiderweb.png"
+
+}

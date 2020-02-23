@@ -1,0 +1,86 @@
+{
+  "type" : "arachneguard",
+  "baseType" : "friendlyguardtenant",
+  
+
+  "scriptConfig" : {
+    "dialog" : {
+      "converse" : {
+        "arachne" : {
+          "default" : [
+            ""
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [1, [
+          {
+            "head" : [
+              { "name" : "arachnetier1head" }
+            ],
+            "chest" : [
+              { "name" : "arachnetier1chest" }
+            ],
+            "legs" : [
+              { "name" : "arachnetier1pants" }
+            ],
+            "primary" : [
+              "npcbroadsword"
+            ]
+          }
+        ] ],
+	 [2, [
+          {
+            "head" : [
+              { "name" : "arachnetier2head" }
+            ],
+            "chest" : [
+              { "name" : "arachnetier2chest" }
+            ],
+            "legs" : [
+              { "name" : "arachnetier2pants" }
+            ],
+            "primary" : [
+              "npcbroadsword"
+            ]
+          }
+        ] ],
+	  [3, [
+          {
+            "head" : [
+              { "name" : "arachnetier3head" }
+            ],
+            "chest" : [
+              { "name" : "arachnetier3chest" }
+            ],
+            "legs" : [
+              { "name" : "arachnetier3pants" }
+            ],
+            "primary" : [
+              "npcbroadsword"
+            ]
+          }
+        ] ],
+	  [4, [
+          {
+            "head" : [
+              { "name" : "arachnetier4head" }
+            ],
+            "chest" : [
+              { "name" : "arachnetier4chest" }
+            ],
+            "legs" : [
+              { "name" : "arachnetier4pants" }
+            ],
+            "primary" : [
+              "npcbroadsword"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

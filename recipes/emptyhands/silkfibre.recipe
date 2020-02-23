@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "arachnesilkresource", "count" : 30 }
+  ],
+  "output" : {
+    "item" : "silkfibre",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all", "other" ]
+}

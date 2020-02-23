@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "widowspider",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "widowspider.png"
+  }
+}

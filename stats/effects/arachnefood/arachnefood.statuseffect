@@ -1,0 +1,16 @@
+{
+  "name" : "arachnefood",
+  "blockingStat" : "poisonStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "arachnefood.lua"
+  ],
+
+  "animationConfig" : "arachnefood.animation",
+
+  "label" : "Food Poisoning",
+  "icon" : "/interface/statuses/foodpoison.png"
+}

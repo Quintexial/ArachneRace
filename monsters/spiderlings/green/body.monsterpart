@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "greenspider",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "greenspider.png"
+  }
+}

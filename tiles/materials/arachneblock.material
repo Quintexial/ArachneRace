@@ -1,0 +1,23 @@
+{
+  "materialId" : 3601,
+  "materialName" : "arachneblock",
+  "particleColor" : [250, 250, 250, 180],
+  "itemDrop" : "arachneblockitem",
+  "description" : "Plating made from a metal and silk composite.",
+  "shortdescription" : "Arachne Plating",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "arachneblock.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

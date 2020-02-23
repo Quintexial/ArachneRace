@@ -1,0 +1,30 @@
+{
+  "itemName" : "spiderpetegg2",
+  "price" : 750,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "spiderpetegg2.png",
+  "image" : "spiderpetegg2.png",
+  "shortdescription" : "Spiderling Egg",
+  "description" : "^yellow;Orb weaver",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "spiderpeteggprojectile2",
+  "projectileConfig" : {
+    "speed" : 40,
+    "level" : 7,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

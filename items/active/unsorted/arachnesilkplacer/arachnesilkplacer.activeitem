@@ -1,0 +1,14 @@
+{
+  "itemName" : "arachnesilkplacer",
+  "shortdescription" : "Silk Placer",
+  "description" : "^violet;Primary^reset;: Foreground
+^magenta;Secondary^reset;: Background",
+  "maxStack" : 1,
+  "rarity" : "uncommon",
+  "category" : "^violet;Tool^reset;",
+  "twoHanded" : true,
+  "itemTags" : ["tool"],
+  "inventoryIcon" : "arachnesilkplacer.png",
+  "animation" : "arachnesilkplacer.animation",
+  "scripts" : ["arachnesilkplacer.lua"]
+}

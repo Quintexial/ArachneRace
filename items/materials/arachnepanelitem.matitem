@@ -1,0 +1,10 @@
+{
+  "itemName" : "arachnepanelitem",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "arachnepanelitem.png",
+  "description" : "Ship panels made out of a metal and silk composite.",
+  "shortdescription" : "Arachne Ship Panels",
+
+  "materialId" : 3602
+}

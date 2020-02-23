@@ -1,0 +1,49 @@
+{
+  "name" : "arcrawl",
+  "type" : "head",
+
+  "scripts" : ["arcrawl.lua"],
+  "animator" : "distortionsphere.animation",
+
+  "description" : "Cling to walls, just like a real spider! ^green;[F]",
+  "shortDescription" : "Arachne Crawl",
+  "rarity" : "Legendary",
+  "icon" : "/tech/spikesphere.png",
+
+  "chipCost" : 8,
+
+  "animationParts" : {
+    "ballGlow" : "",
+    "ball" : ""
+  },
+
+  "transformedMovementParameters" : {
+    "collisionPoly" : [ [0.41, 1], [1, 0.41], [1, -0.41], [0.41, -1], [-0.41, -1], [-1, -0.41], [-1, 0.41], [-0.41, 1] ],
+
+    "airForce" : 0.0,
+    "liquidForce" : 0.0,
+
+    "airJumpProfile" : {
+      "jumpSpeed" : 0.0
+    },
+
+    "liquidJumpProfile" : {
+      "jumpSpeed" : 0.0,
+      "jumpControlForce" : 0.0,
+
+      "multiJump" : false,
+      "autoJump" : false
+    }
+  },
+
+  "ignorePlatforms" : true,
+
+  "ballSpeed" : 10,
+
+  "energyCost" : 50,
+
+  "ballRadius" : 1,
+  "ballFrames" : 4,
+
+  "damageDisableTime" : 0.2
+}

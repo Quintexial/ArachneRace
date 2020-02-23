@@ -1,0 +1,21 @@
+[
+  { "op" : "add",
+    "path" : "/arachnefurniture",
+    "value" : []
+  },
+  { "op" : "add", 
+    "path" : "/arachnefurniture/-", 
+    "value" : 
+    [0, [
+      { "item" : { "name" : "arachneruglarge1" }, "rarity" : 0.06 },
+      { "item" : { "name" : "arachneruglarge2" }, "rarity" : 0.06 },
+      { "item" : { "name" : "arachneruglarge3" }, "rarity" : 0.06 },
+      { "item" : { "name" : "arachnerugsmall1" }, "rarity" : 0.06 },
+      { "item" : { "name" : "arachnerugsmall2" }, "rarity" : 0.06 },
+      { "item" : { "name" : "arachnerugsmall3" }, "rarity" : 0.06 },
+      { "item" : { "name" : "arachnedesklamp" }, "rarity" : 0.06 },
+      { "item" : { "name" : "arachnesmalltable" }, "rarity" : 0.06 }
+    ]
+  ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "id" : "arwallclimb",
+  "prerequisites" : [ ],
+  "title" : "^#1693d5;Wall Climb",
+  "text" : "Now Arachne can climb walls!",
+  "completionText" : "Now Arachne can climb walls! Why they couldn't before is beyond me.",
+  "moneyRange" : [220, 320],
+  "rewards" : [ ],
+  "speaker" : "questGiver",
+  
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questGiver"
+    },
+
+    "requireTurnIn" : false,
+
+    "conditions" : [ ],
+    "showTech" : [
+      "arachnewalljump"
+    ]
+  }
+}

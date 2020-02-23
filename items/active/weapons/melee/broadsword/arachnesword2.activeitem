@@ -1,0 +1,71 @@
+{
+  "itemName" : "arachnebroadsword",
+  "price" : 500,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "An Arachne-made sword with a hook at the end.",
+  "shortdescription" : "Arachne Broadsword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "arachnesword2.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "arachnesword2.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "physicalTravelSlash" : ["/sfx/melee/ixodoomclaw_web2.ogg"],
+      "fire" : ["/sfx/melee/swing_hammer.ogg"]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.89,
+    "baseDps" : 11,
+    
+    "stances" : {
+      "idle" : {
+        "armRotation": -15,
+        "weaponRotation": 60,
+        "twoHanded": false,
+        "allowRotate": false,
+        "allowFlip": true,
+        "weaponOffset": [0,0.3]
+      },
+      "fire1" : {
+        "weaponRotation": -40
+      },
+      "wait1" : {
+        "weaponRotation": -40
+      },
+      "fire2" : {
+        "weaponRotation": 65
+      },
+      "wait2" : {
+        "weaponRotation": 65
+      }
+    
+    }
+  },
+  
+  "altAbilityType" : "travelingslash",
+  "altAbility" : {
+    "baseDamage" : 1,
+    "energyUsage" : 80,
+    "projectileOffset" : [4.5, 0.5],
+    "projectileType" : "arachnewebblast"
+    
+  },
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

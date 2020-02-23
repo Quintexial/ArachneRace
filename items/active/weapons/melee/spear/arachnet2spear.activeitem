@@ -1,0 +1,51 @@
+{
+  "itemName" : "arachnet2spear",
+  "price" : 0,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Light as a feather, hard as steel. Tipped with a large claw.",
+  "shortdescription" : "Silk Claw Spear",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+  
+  "inventoryIcon" : "arachnet2spear.png",
+  "animation" : "spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "arachnet2spear.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "scripts" : [],
+
+    "fireTime" : 0.9,
+    "baseDps" : 11.5,
+    "damageConfig" : {
+      "damageSourceKind" : "spear",
+      "statusEffects" : [ ],
+      "knockback" : 10
+    }
+  },
+  "altAbilityType" : "spearspin",
+  "altAbility" : { },
+
+  "critChance" : 2,
+  "critBonus" : 7,
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+  "learnBlueprintsOnPickup" : [ "arachnet3spear" ]
+}

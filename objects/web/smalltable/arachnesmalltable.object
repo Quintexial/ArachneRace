@@ -1,0 +1,38 @@
+{
+  "objectName" : "arachnesmalltable",
+  "colonyTags" : ["misc","arachne"],
+  "printable" : true,
+  "rarity" : "Common",
+  "description" : "A small silky table.",
+  "shortdescription" : "Arachne Small Table",
+  
+  "apexDescription" : "A narrow table, covered in silk and webbing.",
+  "arachneDescription" : "A narrower \"café\" style table. This took off once some of my brethren discovered human coffee shops.",
+  "avaliDescription" : "I think Arachne drink at these? What do Arachne like to drink, anyway? Actually, scratch that, I don't want to know.",
+  "avianDescription" : "I'll pass at a drink over this table, thanks.",
+  "floranDescription" : "Floran ssit at table, drink bug juicesss.",
+  "glitchDescription" : "Tired. Well, Arachne know what they like.",
+  "humanDescription" : "I would almost enjoy a cup of Joe at this table. Almost.",
+  "hylotlDescription" : "This would be a lovely café table, were it not covered in webs.",
+  "novakidDescription" : "I'll pass on a drink o' Prairie Dew o'er this table.",
+  
+  "race" : "arachne",
+  "category" : "furniture",
+  "price" : 60,
+
+  "inventoryIcon" : "/objects/web/smalltable/arachnesmalltableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "/objects/web/smalltable/arachnesmalltable.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

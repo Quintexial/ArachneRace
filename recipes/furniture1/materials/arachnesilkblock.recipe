@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "arachnesilkresource", "count" : 50 }
+  ],
+  "output" : { "item" : "arachnesilkblockitem", "count" : 20 },
+  "duration" : 0.25,
+  "groups"  : [ "craftingfurniture", "materials", "all" ]
+}

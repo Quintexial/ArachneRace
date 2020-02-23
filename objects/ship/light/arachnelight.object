@@ -1,0 +1,47 @@
+{
+  "objectName" : "arachnelight",
+  "colonyTags" : ["light", "arachne"],
+  "rarity" : "Common",
+  "category" : "light",
+  "lightColor" : [128, 128, 255],
+  "price" : 60,
+  "description" : "A common violet light.",
+  "shortdescription" : "Arachne Light",
+  "race" : "arachne",
+
+  "apexDescription" : "A bright, violet light.",
+  "avianDescription" : "A vibrant light.",
+  "floranDescription" : "Light is harsh on Floran eyesss.",
+  "glitchDescription" : "Impressed. This lighting fixture generates more light than heat.",
+  "humanDescription" : "A bright, violet light.",
+  "hylotlDescription" : "A bright, violet light. It creates a neutral atmosphere.",
+  "novakidDescription" : "That's one bright lightbulb.",
+  "arachneDescription" : "Standard Arachne light.",
+
+  "inventoryIcon" : "arachnelighticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "arachnelight.png:<color>.<frame>", "fullbright" : true }, { "image" : "arachnelightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "arachnelight.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+  
+}

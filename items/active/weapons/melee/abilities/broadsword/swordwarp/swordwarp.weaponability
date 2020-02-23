@@ -1,0 +1,55 @@
+{
+  "ability" : {
+    "type" : "swordwarp",
+    "class" : "SwordWarp",
+    "name" : "Reverse Recall",
+    "scripts" : ["/items/active/weapons/melee/abilities/broadsword/swordwarp/swordwarp.lua"],
+
+    "walkWhileFiring" : true,
+	
+	"teleportOffset" : [0.0, 0.5],
+	"teleportTolerance" : 2.5,
+    "energyPerShot" : 150,
+	"windupTime": 0.8,
+	"cooldownTime" : 1.5,
+	"warpTime" : 2.5,
+    "projectileType" : "arachnesword6",
+	"projectileParameters" : {
+		"speed": 80,
+		"power": 7
+	},
+	"fireOffset" : [0.0, 0.0],
+	
+	
+	"stances" : {
+		"windup" : {
+			"duration" : 0.2,
+			"armRotation" : 50,
+			"weaponRotation" : -230,
+			"allowFlip" : true,
+			"twoHanded" : true
+		},
+		"aiming" : {
+			"duration" : 0.25,
+			"armRotation" : 110,
+			"weaponRotation" : -10,
+			"allowRotate" : true,
+			"allowFlip" : true,
+			"twoHanded" : false
+		},
+		"fire": {
+			"duration" : 2.5,
+			"armRotation": 30,
+			"weaponRotation": -320,
+			"allowFlip": true,
+			"allowRotate": false,
+			"twoHanded": false
+		},
+		"cooldown": {
+			"duration" : 1,
+			"twoHanded": true,
+			"allowRotate": true
+		}
+	}
+	}
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 3608,
+  "materialName" : "arachnesilkblock",
+  "particleColor" : [212, 205, 174, 205],
+  "itemDrop" : "arachnesilkblockitem",
+  "description" : "A mass of compacted silk.",
+  "shortdescription" : "Packed Silk Block",
+  "footstepSound" : "/sfx/blocks/footstep_ash.ogg",
+  "health" : 7,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "arachnesilkblock.png",
+    "variants" : 4,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 370
+  }
+}

@@ -1,0 +1,48 @@
+[
+  { "op" : "add", 
+    "path" : "/scriptConfig/merchant/categories/arachne", 
+    "value" : [ "basicmerchant", "randomguns", "randomswords", "musicalinstruments", "arachnefurniture" ] 
+  },
+  { "op" : "add",
+    "path" : "/items/arachne",
+    "value" : 
+    [ [0, [ {
+        "chest" : [
+          { "name" : "arachneskirtchest", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachneoutfit2chest", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachneavianshirt", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachneapexjacket", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetierier5chest", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetierier5manchest", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetierier5sepchest", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetierier6chest", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier6manchest", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier6sepchest", "data" : { "colorIndex" : 0 } }
+        ],
+        "legs" : [
+          { "name" : "arachneblanklegs", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachneskirtlegs", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachneoutfit2legs", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachneavianlegs", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachneapexpants", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachneblanklegs", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier5pants", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier5manpants", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier5seppants", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier6pants", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier6manpants", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier6seppants", "data" : { "colorIndex" : 0 } }
+        ],
+        "head" : [
+          { "name" : "arachneblankhead", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier5head", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier5manhead", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier5sephead", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier6head", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier6manhead", "data" : { "colorIndex" : 0 } },
+          { "name" : "arachnetier6sephead", "data" : { "colorIndex" : 0 } }
+        ]
+      } ] ]
+    ]
+  }
+]

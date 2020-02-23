@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/arachne",
+		"value" : [
+		    "/ships/arachne/arachneT0.structure",
+			"/ships/arachne/arachneT1.structure",
+			"/ships/arachne/arachneT2.structure",
+			"/ships/arachne/arachneT3.structure",
+			"/ships/arachne/arachneT4.structure",
+			"/ships/arachne/arachneT5.structure",
+			"/ships/arachne/arachneT6.structure",
+			"/ships/arachne/arachneT7.structure",
+			"/ships/arachne/arachneT8.structure"
+		]
+	}
+]

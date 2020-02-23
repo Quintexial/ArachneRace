@@ -1,0 +1,16 @@
+{
+  "name" : "arachnepoison",
+  "blockingStat" : "poisonStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "arachnepoison.lua"
+  ],
+
+  "animationConfig" : "arachnepoison.animation",
+
+  "label" : "Poisoned",
+  "icon" : "/interface/statuses/poison.png"
+}

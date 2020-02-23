@@ -1,0 +1,9 @@
+{
+  "name" : "arachnegrenadespider",
+  "category" : "arachnegrenadespider",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "arachnegrenadespider.png"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "objectName" : "arachnebench",
+  "colonyTags" : ["arachne", "misc"],
+  "itemTags" : [],
+  "printable" : true,
+  "rarity" : "Common",
+  "objectType" : "loungeable",
+
+  "description" : "A silky bench.",
+  "shortdescription" : "Arachne Bench",
+  
+  "apexDescription" : "A silky, white bench. Surprisingly not sticky.",
+  "arachneDescription" : "A broad bench for resting one's whole body.",
+  "avaliDescription" : "Hmmm, I don't trust this bench.",
+  "avianDescription" : "I feel like if I sit on this I'll lose a few tailfeathers.",
+  "floranDescription" : "Floran sssit on bench. Not sssticky.",
+  "glitchDescription" : "Wary. This bench isn't a trap, right?",
+  "humanDescription" : "Why do I feel like if I sit on this, I'm never standing up again?",
+  "hylotlDescription" : "A white, silk-woven bench. Dull, but still comfortable.",
+  "novakidDescription" : "A fine lookin' bench, presumin' I don't stick to it.",
+  
+  "race" : "arachne",
+  "category" : "furniture",
+
+  "inventoryIcon" : "arachnebenchicon.png",
+  "orientations" : [
+    {
+      "image" : "arachnebench.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [7, 21]
+    },
+    {
+      "image" : "arachnebench.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [7, 21]
+    }
+  ],
+  "sitFlipDirection" : false
+}

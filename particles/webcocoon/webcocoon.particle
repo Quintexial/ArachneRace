@@ -1,0 +1,21 @@
+{
+  "kind" : "webcocoon",
+  "definition" : {
+    "type" : "textured",
+    "image" : "/particles/webcocoon/webcocoon.png",
+    "position" : [2.0, 0],
+    "size" : 0.8,
+    "color" : [255, 255, 255, 255],
+    "fade" : 0.5,
+    "initialVelocity" : [0, 0],
+    "finalVelocity" : [0, 0],
+    "approach" : [5, 50],
+    "rotation" : 0,
+    "flippable": true,
+    "destructionAction" : "shrink",
+    "destructionTime" : 0.5,
+    "angularVelocity" : 0,
+    "timeToLive" : 0.2,
+    "layer" : "front"
+  }
+}

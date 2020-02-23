@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 4
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "arachneT4.png",
+      "position" : [15, 10],
+      "fullbright" : true
+    },
+    {
+      "image" : "arachneT4lit.png",
+      "position" : [15, 10]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "arachneT4blocks.png"
+}

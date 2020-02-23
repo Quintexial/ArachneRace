@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 6 },
+    { "item" : "titaniumbar", "count" : 2 },
+    { "item" : "leather", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "arachnetier4head",
+    "count" : 1
+  },
+  "groups" : ["craftinganvil3", "webloom", "armours"]
+}

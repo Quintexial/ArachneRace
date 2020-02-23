@@ -1,0 +1,10 @@
+{
+  "itemName" : "arachnegirderitem",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "arachnegirderitem.png",
+  "description" : "A silk-metal girder used in ship construction.",
+  "shortdescription" : "Arachne Girder",
+
+  "materialId" : 3606
+}

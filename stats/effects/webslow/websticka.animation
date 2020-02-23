@@ -1,0 +1,12 @@
+{
+  "particleEmitters" : {
+    "electric" : {
+      "active" : true,
+      "emissionRate" : 10,
+      "offsetRegion" : [-2.3, 0, -2.3, 0],
+      "particles" : [
+        { "particle" : "webcocoon"}
+      ]
+    }   
+  }
+}

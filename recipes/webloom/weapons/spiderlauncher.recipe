@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "silkbar", "count" : 4 },
+    { "item" : "durasteelbar", "count" : 3},
+    { "item" : "venomsample", "count" : 3}
+  ],
+  "output" : { "item" : "spiderlauncher", "count" : 1 },
+  "groups" : [ "webloom", "weapons", "all" ]
+}

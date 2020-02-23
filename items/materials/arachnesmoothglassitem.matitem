@@ -1,0 +1,10 @@
+{
+  "itemName" : "arachnesmoothglassitem",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "arachnesmoothglassitem.png",
+  "description" : "A glassy hull.",
+  "shortdescription" : "Arachne Glass",
+
+  "materialId" : 3610
+}

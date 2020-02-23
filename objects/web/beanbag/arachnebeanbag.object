@@ -1,0 +1,51 @@
+{
+  "objectName" : "arachnebeanbag",
+  "colonyTags" : ["arachne", "misc"],
+  "itemTags" : [],
+  "printable" : true,
+  "rarity" : "Common",
+  "objectType" : "loungeable",
+
+  "description" : "A silky beanbag to rest your legs in.",
+  "shortdescription" : "Arachne Beanbag Chair",
+  
+  "apexDescription" : "A beanbag chair. Vibrantly purple.",
+  "arachneDescription" : "Aah, a simple silk cushion. Good for resting the abdomen.",
+  "avaliDescription" : "Oh! This would fit right in with one of our tents!",
+  "avianDescription" : "This cushion is more comfortable than the finest nest.",
+  "floranDescription" : "Floran sssit in chair. Sssink in. Can't get up.",
+  "glitchDescription" : "Analytical. A soft beanbag chair, I would likely rupture its seams, were I to sit in it.",
+  "humanDescription" : "A funky beanbag chair!",
+  "hylotlDescription" : "A simple, but elegant and soft bean chair.",
+  "novakidDescription" : "Now that's a mighty soft lookin' cushion right there.",
+  
+  "race" : "arachne",
+  "category" : "furniture",
+
+  "inventoryIcon" : "arachnebeanbagicon.png",
+  "orientations" : [
+    {
+      "image" : "arachnebeanbag.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : false,
+      "direction" : "left",
+      "sitPosition" : [6, 22]
+    },
+    {
+      "image" : "arachnebeanbag.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "flipImages" : true,
+      "sitPosition" : [6, 22]
+    }
+  ],
+  "sitFlipDirection" : false
+}

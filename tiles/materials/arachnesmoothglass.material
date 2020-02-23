@@ -1,0 +1,23 @@
+{
+  "materialId" : 3610,
+  "materialName" : "arachnesmoothglass",
+  "particleColor" : [114, 22, 0, 180],
+  "itemDrop" : "arachnesmoothglassitem",
+  "description" : "A glassy hull.",
+  "shortdescription" : "Glass Hull",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 2,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "arachnesmoothglass.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "modId" : 3613,
+  "modName" : "arachnesilkmod",
+  "itemDrop" : "arachnesilkresource",
+  "description" : "Spider silk.",
+  "health" : 1,
+  "harvestLevel" : 1,
+  "breaksWithTile" : true,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "arachnesilk.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

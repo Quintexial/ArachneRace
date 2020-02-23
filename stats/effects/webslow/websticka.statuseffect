@@ -1,0 +1,16 @@
+{
+  "name" : "websticka",
+  "blockingStat" : "stunImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 10,
+
+  "scripts" : [
+    "websticka.lua"
+  ],
+
+  "animationConfig" : "websticka.animation",
+
+  "label" : "Paralyzed",
+  "icon" : "/interface/statuses/stop.png"
+}

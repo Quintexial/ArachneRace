@@ -1,0 +1,10 @@
+{
+  "itemName" : "arachnesilkclothitem",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "arachnesilkclothitem.png",
+  "description" : "A silky cloth block.",
+  "shortdescription" : "Silk Cloth",
+
+  "materialId" : 3611
+}

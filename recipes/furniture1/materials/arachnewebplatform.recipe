@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "arachnesilkresource", "count" : 20 }
+  ],
+  "output" : { "item" : "arachnewebplatformitem", "count" : 20 },
+  "duration" : 0.25,
+  "groups"  : [ "craftingfurniture", "materials", "all" ]
+}

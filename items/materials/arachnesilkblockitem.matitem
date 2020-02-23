@@ -1,0 +1,10 @@
+{
+  "itemName" : "arachnesilkblockitem",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "arachnesilkblockitem.png",
+  "description" : "A mass of compacted silk.",
+  "shortdescription" : "Packed Silk Block",
+
+  "materialId" : 3608
+}

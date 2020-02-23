@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "arachnewebbingitem", "count" : 10 },
+    { "item" : "venomsample", "count" : 1 },
+    { "item" : "biosample", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "arachnewebbingitem2",
+    "count" : 10
+  },
+  "groups" : [ "webloom", "weapons" ]
+}

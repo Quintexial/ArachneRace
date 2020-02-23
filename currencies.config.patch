@@ -1,0 +1,7 @@
+[
+	{
+		"op": "add",
+		"path": "/arachnesilkresource",
+		"value": { "representativeItem" : "arachnesilkresource", "playerMax" : 999999, "sail_secret" : true }
+	}
+]

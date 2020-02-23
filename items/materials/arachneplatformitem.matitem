@@ -1,0 +1,15 @@
+{
+  "itemName" : "arachneplatformitem",
+  "price" : 0,
+  "category" : "platform",
+  "rarity" : "Common",
+  "inventoryIcon" : "arachneplatformitem.png",
+  "description" : "A simple looking platform.",
+  "shortdescription" : "Arachne Platform",
+  "glitchdescription" : "Impressed. These platforms can easily support my weight.",
+  "florandescription" : "Shiny sssilk platformsss.",
+  "novakiddescription" : "Some fancy lookin' platforms made outta silk.",
+  
+  "materialId" : 3607
+
+}

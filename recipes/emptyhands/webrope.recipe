@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "arachnesilkresource", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "webrope",
+    "count" : 3
+  },
+  "groups" : [ "plain", "all", "other" ]
+}

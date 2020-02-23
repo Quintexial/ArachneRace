@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "silkbar", "count" : 4 },
+    { "item" : "solariumstar", "count" : 5},
+    { "item" : "phasematter", "count" : 3},
+	{ "item" : "liquidpoison", "count" : 12}
+  ],
+  "output" : { "item" : "arachnebroadsword6", "count" : 1 },
+  "groups" : [ "webloom", "weapons", "all" ]
+}

@@ -1,0 +1,123 @@
+{
+  "itemName" : "arachnebroadsword6",
+  "price" : 500,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "A blade that weaves threads through space.",
+  "shortdescription" : "Warpweaver",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "arachnesword6icon.png",
+
+  "animation" : "arachnesword6.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "arachnesword6.png",
+	"bladeFullBright" : "arachnesword6fb.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "throw" : ["/sfx/melee/swing_hammer.ogg"],
+      "fire" : ["/sfx/melee/swing_hammer.ogg"]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.89,
+    "baseDps" : 12,
+    
+    "stances" : {
+      "idle" : {
+        "armRotation": -15,
+        "weaponRotation": 60,
+        "twoHanded": false,
+        "allowRotate": false,
+        "allowFlip": true,
+        "weaponOffset": [0,0.3]
+      },
+      "fire1" : {
+        "weaponRotation": -40
+      },
+      "wait1" : {
+        "weaponRotation": -40
+      },
+      "fire2" : {
+        "weaponRotation": 65
+      },
+      "wait2" : {
+        "weaponRotation": 65
+      }
+    
+    }
+  },
+  
+  "altAbility" : {
+	"name" : "Blade Warp",
+	"class" : "SwordWarp",
+	"scripts" : ["/items/active/weapons/melee/abilities/broadsword/swordwarp/swordwarp.lua"],
+
+    "walkWhileFiring" : true,
+	"fireOffset" : [0.0, 0.0],
+	"teleportOffset" : [0.0, 0.5],
+	"teleportTolerance" : 3.0,
+    "energyUsage" : 150,
+	"windupTime": 0.2,
+	"cooldownTime" : 1.5,
+	"warpTime" : 0.3,
+    "projectileType" : "arachnesword6",
+	"projectileParameters" : {
+		"speed": 150,
+		"power": 15
+	},
+	
+	
+	"stances" : {
+		"idle" : {
+			"armRotation": -15,
+			"weaponRotation": 60,
+			"twoHanded": false,
+			"allowRotate": false,
+			"allowFlip": true,
+			"weaponOffset": [0,0.3]
+		},
+		"windup" : {
+			"duration" : 0.1,
+			"armRotation" : 130,
+			"weaponRotation" : -210,
+			"allowFlip" : true,
+			"twoHanded" : false
+		},
+		"aiming" : {
+			"duration" : 0.2,
+			"armRotation" : 130,
+			"weaponRotation" : -210,
+			"allowRotate" : true,
+			"allowFlip" : true,
+			"twoHanded" : false
+		},
+		"fire": {
+			"duration" : 2.5,
+			"armRotation": 30,
+			"weaponRotation": -320,
+			"allowFlip": true,
+			"allowRotate": false,
+			"twoHanded": false
+		},
+		"cooldown": {
+			"duration" : 1,
+			"twoHanded": false,
+			"allowRotate": true
+		}
+	}
+},
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

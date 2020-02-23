@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "arachnewebbedcorpset1", "count" : 1 },
+    { "item" : "arachnesilkresource", "count" : 25 }
+  ],
+  "output" : {
+    "item" : "spiderpetegg3",
+    "count" : 1
+  },
+  "groups" : [ "webloom", "arachneegg" ]
+}

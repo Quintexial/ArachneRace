@@ -1,0 +1,10 @@
+{
+  "itemName" : "arachnebeamitem",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "arachnebeamitem.png",
+  "description" : "A silk-metal beam used in ship construction.",
+  "shortdescription" : "Arachne Beam",
+
+  "materialId" : 3605
+}

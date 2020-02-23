@@ -1,0 +1,20 @@
+[	
+  {"op" : "add",
+	"path" : "/arachnesword6",
+	"value" : {
+	  "mass" : 1.0,
+	  "gravityMultiplier" : 0.0,
+	  "stickyCollision" : true,
+	  "stickyForce" : 20.0,
+	  "bounceFactor" : 0.0,
+	  "stopOnFirstBounce" : true,
+	  "maxMovementPerStep" : 0.4,
+	  "collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+	  "ignorePlatformCollision" : true,
+
+	  "airFriction" : 0.0,
+	  "liquidFriction" : 1.0,
+	  "groundFriction" : 15.0
+	}	  
+  }
+]

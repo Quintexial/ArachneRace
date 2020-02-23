@@ -1,0 +1,10 @@
+{
+  "itemName" : "arachnesilkblock3item",
+  "rarity" : "Common",
+  "price" : 5,
+  "inventoryIcon" : "arachnesilkblock3item.png",
+  "description" : "A mass of silk.",
+  "shortdescription" : "Non-Solid Silk Block",
+
+  "materialId" : 3612
+}

@@ -1,0 +1,30 @@
+{
+  "itemName" : "arachnewebbingitem2",
+  "price" : 750,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "arachnewebbingitem2.png",
+  "image" : "arachnewebbingitem2.png",
+  "shortdescription" : "Webbing",
+  "description" : "Make your enemies stick",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "arachnewebbing2",
+  "projectileConfig" : {
+    "speed" : 40,
+    "level" : 2,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

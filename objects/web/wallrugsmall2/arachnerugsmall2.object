@@ -1,0 +1,35 @@
+{
+  "objectName" : "arachnerugsmall2",
+  "colonyTags" : ["arachne","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+
+  "description" : "A thick woven rug depicting a spider.",
+  "shortdescription" : "Arachne Small Red Rug",
+  "race" : "arachne",
+
+  "apexDescription" : "A wonderfully vibrant wall rug.",
+  "arachneDescription" : "A purely decorative wall rug.",
+  "avaliDescription" : "You know what? I would hang this in my tent.",
+  "avianDescription" : "A vibrant wall rug.",
+  "floranDescription" : "Pretty colourss, reminds Floran of flowerss.",
+  "glitchDescription" : "Curious. Do they walk on these?",
+  "humanDescription" : "Bright and cheerful colours!",
+  "hylotlDescription" : "Such vibrancy can only exist above the ocean.",
+  "novakidDescription" : "There's somethin' about this rug. I like it.",
+
+  "inventoryIcon" : "arachnerugsmall2icon.png",
+  "orientations" : [
+    {
+      "image" : "arachnerugsmall2.png:<color>",
+      "imagePosition" : [-8, -24],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "bgAnchors" : [ [0, 0], [-1, 0] ]
+
+    }
+  ]
+}

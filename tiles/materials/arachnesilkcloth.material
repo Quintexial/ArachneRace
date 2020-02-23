@@ -1,0 +1,23 @@
+{
+  "materialId" : 3611,
+  "materialName" : "arachnesilkcloth",
+  "particleColor" : [114, 22, 0, 180],
+  "itemDrop" : "arachnesilkclothitem",
+  "description" : "A silky cloth.",
+  "shortdescription" : "Silk Cloth",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
+  "health" : 2,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "arachnesilkcloth.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 500
+  }
+}

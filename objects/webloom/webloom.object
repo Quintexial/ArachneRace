@@ -1,0 +1,38 @@
+{
+  "objectName" : "webloom",
+  "colonyTags" : ["crafting", "arachne"], 
+  "rarity" : "Uncommon",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/webloom.config",
+    "filter" : [ "webloom"]
+  },
+  "printable" : true,
+  "description" : "Comes with a free tree!",
+  "shortdescription" : "Web Loom",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 1000,
+   "apexDescription" : "A loom with the silk of spiders.",
+  "avianDescription" : "A spider loom.",
+  "floranDescription" : "Floran ussse ssspider loom to make nice ssspider thingsss.",
+  "glitchDescription" : "Inspired. Silk is a verastile material.",
+  "humanDescription" : "I can upload objects on the web.",
+  "hylotlDescription" : "What a neat web.",
+  "novakidDescription" : "I can make them spider things.",
+  "inventoryIcon" : "webloomicon.png",
+  "orientations" : [
+    {
+       "dualImage" : "webloom.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "frames" : 6,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "learnBlueprintsOnPickup" : [
+        "arachnewebbingitem","arachnewebbingitem2","arachnet1spear", "widowmakerrevolver", "arachnerugsmall1", "arachnerugsmall2", "arachnerugsmall3", "arachneruglarge1", "arachneruglarge2", "arachneruglarge3", "arachnebroadsword", "arachnebroadsword5", "arachnebroadsword6", "spiderpetegg", "spiderpetegg2", "spiderpetegg3", "arwallclimb_tech", "spiderlauncher", "arachnedagger1","protectoratechest", "protectoratepants", "arachneprotectoratechest", "arachneprotectoratepants", "arachnedarkdisguiselegs", "darkdisguiselegs",  "arachnedarkdisguisechest", "darkdisguisechest", "arachnemannequin"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "projectileName" : "arachnewebhook",
+  "image" : "arachnewebhook.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "pointLight" : false,
+  "flippable" : false,
+  "actionOnReap" : [ ],
+  "statusEffects" : [ ],
+  "power" : 0.0,
+  "speed" : 120,
+  "damageKind" : "default",
+  "physics" : "ballisticgrapplehook",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 5,
+
+  "onlyHitTerrain" : true,
+
+  "scripts" : [ "arachnewebhook.lua" ],
+
+  "breakOnSlipperyCollision" : true,
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/tar_hit_organic2.ogg",
+        "/sfx/projectiles/tar_hit_organic3.ogg",
+        "/sfx/projectiles/tar_hit_organic4.ogg"
+      ]
+    }
+  ]
+}

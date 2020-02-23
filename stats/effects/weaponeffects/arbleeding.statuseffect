@@ -1,0 +1,18 @@
+{
+  "name" : "arbleedingshort",
+  "blockingStat" : "",
+  "effectConfig" : {
+    "bleedAmount" : 0.02,
+    "emissionRate" : 0.2
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "arbleeding.lua"
+  ],
+
+  "animationConfig" : "arbleed.animation",
+
+  "label" : "Bleeding",
+  "icon" : "/interface/statuses/absorb.png"
+}

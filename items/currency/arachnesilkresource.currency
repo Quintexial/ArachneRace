@@ -1,0 +1,16 @@
+{
+  "itemName" : "arachnesilkresource",
+  "rarity" : "Common",
+  "inventoryIcon" : "arachnesilkresource.png",
+  "description" : "Unprocessed silk.",
+  "shortdescription" : "Silk Strand",
+  "currency" : "arachnesilkresource",
+  "value" : 1,
+  "pickupSoundsSmall" : [ "" ],
+  "pickupSoundsMedium" : [ "" ],
+  "pickupSoundsLarge" : [ "" ],
+  "smallStackLimit" : 99,
+  "mediumStackLimit" : 999,
+  "maxStack" : 16777216,
+  "learnBlueprintsOnPickup" : [ "arachnesilkresource" ]
+}

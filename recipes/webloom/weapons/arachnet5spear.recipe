@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "silkbar", "count" : 4 },
+    { "item" : "arachnet4spear", "count" : 1},
+    { "item" : "refinedaegisalt", "count" : 1},
+    { "item" : "refinedferozium", "count" : 1},
+    { "item" : "refinedviolium", "count" : 1},
+    { "item" : "liquidpoison", "count" : 12}
+  ],
+  "output" : { "item" : "arachnet5spear", "count" : 1 },
+  "groups" : [ "webloom", "weapons", "all", "upgrades" ]
+}

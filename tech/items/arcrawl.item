@@ -1,0 +1,12 @@
+{
+  "itemName" : "arcrawl_tech",
+  "rarity" : "rare",
+  "price" : 100,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "techcard_legs2.png",
+  "description" : "An Arachne-specific tech! Lets you crawl around on walls.",
+  "shortdescription" : "^#77acc3;Crawl^reset;",
+    "pickupQuestTemplates" : [ "arcrawl" ],
+  "consumeOnPickup" : true,
+  "itemTags" : [ "trophy" ]
+}

@@ -1,0 +1,36 @@
+{
+  "name" : "arachnecrawl",
+  "type" : "legs",
+
+  "scripts" : ["arachnecrawl.lua"],
+  "animator" : "arachnecrawl.animation",
+
+  "description" : "Lets you climb and jump off walls!",
+  "shortDescription" : "Wall Climb",
+  "rarity" : "Legendary",
+  "icon" : "/tech/walljump.png",
+
+  "chipCost" : 8,
+
+  "multiJumpCount" : 1,
+  
+  "hitbox" : {
+            "standingPoly" : [ [0.41, 1], [1, 0.41], [1, -0.41], [0.41, -1], [-0.41, -1], [-1, -0.41], [-1, 0.41], [-0.41, 1] ],
+            "crouchingPoly" : [ [0.41, 1], [1, 0.41], [1, -0.41], [0.41, -1], [-0.41, -1], [-1, -0.41], [-1, 0.41], [-0.41, 1] ]
+        },
+
+  "wallSensors" : [1.0, 1.75, 2.5],
+  "wallDetectThreshold" : 1,
+
+  "wallReleaseTime" : 0.15,
+
+  "wallGrabFreezeTime" : 0.15,
+  "wallJumpXVelocity" : 15,
+  "wallSlideParameters" : {
+    "airJumpProfile" : {
+      "jumpInitialPercentage" : 1.0
+    },
+    "airForce" : 0,
+    "airFriction" : 10.0
+  }
+}

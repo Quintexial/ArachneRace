@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 10 },
+    { "item" : "arachnesilkresource", "count" : 30 },
+    { "item" : "arachnetier5seppants", "count" : 1}
+  ],
+  "output" : {
+    "item" : "arachnetier6seppants",
+    "count" : 1
+  },
+  "groups" : [ "craftingseparator", "webloom", "armours"]
+}

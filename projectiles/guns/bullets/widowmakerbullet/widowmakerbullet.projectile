@@ -1,0 +1,20 @@
+{
+  "projectileName" : "widowmakerbullet",
+  "image" : "widowmakerbullet.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "poisonplasmabullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/plasmabulletexplosion/plasmabulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ "weakpoison" ],
+  "power" : 5.0,
+  "speed" : 150,
+  "knockback" : 0
+}

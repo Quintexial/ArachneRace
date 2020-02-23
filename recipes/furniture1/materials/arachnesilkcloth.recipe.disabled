@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "arachnesilkresource", "count" : 5 },
+	{ "item" : "fabric", "count" : 5}
+  ],
+  "output" : { "item" : "arachnesilkclothitem", "count" : 20 },
+  "duration" : 0.25,
+  "groups"  : [ "craftingfurniture", "materials", "all" ]
+}

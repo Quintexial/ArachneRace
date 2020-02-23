@@ -1,0 +1,23 @@
+{
+  "materialId" : 3613,
+  "materialName" : "arachnewebplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "arachnewebplatformitem",
+  "shortdescription" : "Arachne Platform",
+  "description" : "A simple looking platform.",
+  "glitchDescription" : "Impressed. These platforms can easily support my weight.",
+  "floranDescription" : "Shiny sssilk platformsss.",
+  "novakidDescription" : "Some fancy lookin' platforms made outta silk.",
+  "footstepSound" : "/sfx/blocks/footstep_ash.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "arachnewebplatform.png",
+    "variants" : 5,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

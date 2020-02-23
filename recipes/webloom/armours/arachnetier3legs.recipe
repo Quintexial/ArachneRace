@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 6 },
+    { "item" : "tungstenbar", "count" : 2 },
+    { "item" : "leather", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "arachnetier3pants",
+    "count" : 1
+  },
+  "groups" : ["craftinganvil2", "webloom", "armours"]
+}

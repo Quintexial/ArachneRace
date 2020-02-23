@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 8 },
+    { "item" : "arachnesilkresource", "count" : 30 },
+    { "item" : "syntheticmaterial", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "arachnetier5seppants",
+    "count" : 1
+  },
+  "groups" : [ "craftingseparator", "webloom", "armours"]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "volatilepowder", "count" : 4 },
+    { "item" : "string", "count" : 1 },
+    { "item" : "silkbar", "count" : 1 }
+  ],
+  "output" : { "item" : "webbomb", "count" : 1 },
+  "groups" : ["webloom", "craftinganvil", "consumables", "all" ]
+}
