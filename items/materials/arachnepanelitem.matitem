@@ -5,6 +5,7 @@
   "inventoryIcon" : "arachnepanelitem.png",
   "description" : "Ship panels made out of a metal and silk composite.",
   "shortdescription" : "Arachne Ship Panels",
+  "category" : "block",
 
   "materialId" : 3602
 }

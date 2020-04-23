@@ -5,6 +5,7 @@
   "inventoryIcon" : "arachnesilkblockitem.png",
   "description" : "A mass of compacted silk.",
   "shortdescription" : "Packed Silk Block",
+  "category" : "block",
 
   "materialId" : 3608
 }

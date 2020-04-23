@@ -5,6 +5,7 @@
   "inventoryIcon" : "arachnebeamitem.png",
   "description" : "A silk-metal beam used in ship construction.",
   "shortdescription" : "Arachne Beam",
+  "category" : "block",
 
   "materialId" : 3605
 }

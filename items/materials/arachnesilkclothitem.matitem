@@ -5,6 +5,7 @@
   "inventoryIcon" : "arachnesilkclothitem.png",
   "description" : "A silky cloth block.",
   "shortdescription" : "Silk Cloth",
+  "category" : "block",
 
   "materialId" : 3611
 }

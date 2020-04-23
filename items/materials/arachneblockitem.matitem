@@ -5,6 +5,7 @@
   "inventoryIcon" : "arachneblockitem.png",
   "description" : "Plating made from a metal and silk composite.",
   "shortdescription" : "Arachne Plating",
+  "category" : "block",
 
   "materialId" : 3601
 }

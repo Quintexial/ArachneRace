@@ -1,6 +1,6 @@
 {
   "itemName" : "arachnewebbingitem",
-  "price" : 750,
+  "price" : 10,
   "rarity" : "Common",
   "category" : "throwableItem",
   "inventoryIcon" : "arachnewebbingitem.png",

@@ -5,6 +5,7 @@
   "inventoryIcon" : "arachnesmoothblock2item.png",
   "description" : "A block for lining walls.",
   "shortdescription" : "Arachne Colored Cornering",
+  "category" : "block",
 
   "materialId" : 3604
 }

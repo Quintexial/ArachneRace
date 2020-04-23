@@ -5,6 +5,7 @@
   "inventoryIcon" : "arachnesmoothglassitem.png",
   "description" : "A glassy hull.",
   "shortdescription" : "Arachne Glass",
+  "category" : "block",
 
   "materialId" : 3610
 }

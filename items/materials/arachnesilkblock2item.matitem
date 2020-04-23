@@ -5,6 +5,7 @@
   "inventoryIcon" : "arachnesilkblock2item.png",
   "description" : "A mass of silk.",
   "shortdescription" : "Silk Block",
+  "category" : "block",
 
   "materialId" : 3609
 }

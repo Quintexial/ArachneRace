@@ -1,6 +1,6 @@
 {
   "itemName" : "spiderpetegg1a",
-  "price" : 1000,
+  "price" : 10,
   "maxStack" : 1,
   "rarity" : "Common",
   "category" : "throwableItem",
