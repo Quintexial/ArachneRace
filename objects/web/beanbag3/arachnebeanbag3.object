@@ -1,6 +1,7 @@
 {
-  "objectName" : "arachnebeanbag",
+  "objectName" : "arachnebeanbag3",
   "colonyTags" : ["arachne", "misc"],
+  "itemTags" : [],
   "printable" : true,
   "rarity" : "Common",
   "objectType" : "loungeable",
@@ -8,7 +9,7 @@
   "description" : "A silky beanbag to rest your legs in.",
   "shortdescription" : "Arachne Beanbag Chair",
   
-  "apexDescription" : "A beanbag chair. Vibrantly purple.",
+  "apexDescription" : "A beanbag chair. Vibrantly yellow.",
   "arachneDescription" : "Aah, a simple silk cushion. Good for resting the abdomen.",
   "avaliDescription" : "Oh! This would fit right in with one of our tents!",
   "avianDescription" : "This cushion is more comfortable than the finest nest.",
@@ -21,11 +22,11 @@
   "race" : "arachne",
   "category" : "furniture",
 
-  "inventoryIcon" : "arachnebeanbagicon.png",
+  "inventoryIcon" : "arachnebeanbag3icon.png",
   "orientations" : [
     {
-      "image" : "arachnebeanbag.png",
-	  "sitCoverImage" : "/objects/web/beanbag/arachnebeanbagcover.png",
+      "image" : "arachnebeanbag3.png",
+	  "sitCoverImage" : "/objects/web/beanbag3/arachnebeanbag3cover.png",
       "imagePosition" : [-12, 0],
       "frames" : 1,
       "animationCycle" : 0.5,
@@ -36,8 +37,8 @@
       "sitPosition" : [2.5, 18]
     },
     {
-      "image" : "arachnebeanbag.png",
-	  "sitCoverImage" : "/objects/web/beanbag/arachnebeanbagcover.png",
+      "image" : "arachnebeanbag3.png",
+	  "sitCoverImage" : "/objects/web/beanbag3/arachnebeanbag3cover.png",
       "imagePosition" : [-12, 0],
       "frames" : 1,
       "animationCycle" : 0.5,

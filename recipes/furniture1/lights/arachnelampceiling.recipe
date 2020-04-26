@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "arachnesilkresource", "count" : 40 },
+    { "item" : "plantfibre", "count" : 6},
+    { "item" : "glowfibre", "count" : 5}
+  ],
+  "output" : { "item" : "arachnelampceiling", "count" : 1 },
+  "groups" : [ "webloom", "furniture", "craftingfurniture", "decoration", "all" ]
+}

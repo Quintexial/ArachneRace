@@ -92,9 +92,13 @@
       { "item" : "arachnelamp" },
       { "item" : "arachnedesklamp" },
       { "item" : "arachnelamppost" },
+	  { "item" : "arachnelampwall" },
+	  { "item" : "arachnelampceiling" },
       { "item" : "arachnelargetable" },
       { "item" : "arachnesmalltable" },
 	  { "item" : "arachnebeanbag" },
+	  { "item" : "arachnebeanbag2" },
+	  { "item" : "arachnebeanbag3" },
 	  { "item" : "arachnewebchest" },
 
 // Furniture Table 2
