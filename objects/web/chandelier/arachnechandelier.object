@@ -1,0 +1,70 @@
+{
+  "objectName" : "arachnechandelier",
+  "colonyTags" : ["arachne", "light"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "light",
+  "price" : 65,
+
+  "description" : "A violet chandelier",
+  "shortdescription" : "Arachne Chandelier",
+  
+  "apexDescription" : "A hanging purple chandelier.",
+  "arachneDescription" : "It was tempting to design this with only eight lights, but we resisted.",
+  "avaliDescription" : "An intricate, woven chandelier with purple lights. A bit too fancy for me.",
+  "avianDescription" : "A chandelier? I'm surprised there's more than eight lights.",
+  "floranDescription" : "Hangy purple lightss!",
+  "glitchDescription" : "Surprised. I was expecting this to have just eight lights.",
+  "humanDescription" : "Wait. One, two, three... Okay, more than eight.",
+  "hylotlDescription" : "There's a certain elegance to this chandelier. Admittedly, I admire it.",
+  "novakidDescription" : "A big ol' silky chandelier.",
+  
+  "race" : "arachne",
+  
+  "statusEffects" : [ ],
+
+  "lightColor" : [128, 128, 255],
+  "flickerPeriod" : 5,
+  "flickerMinIntensity" : 0.5,
+  "flickerMaxIntensity" : 0.6,
+  
+  "inventoryIcon" : "arachnechandeliericon.png",
+  "orientations" : [
+    {
+      "image" : "arachnechandelier.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "lightPosition" : [0, -1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+
+    {
+      "image" : "arachnechandelier.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+      "direction" : "right",
+
+      "lightPosition" : [0, -1],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "arachnechandelier.png",
+    "fg" : "arachnechandelierlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+
+}

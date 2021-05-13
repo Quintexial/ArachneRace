@@ -1,0 +1,50 @@
+{
+  "objectName" : "arachnecushion",
+  "colonyTags" : ["arachne", "misc"],
+  "itemTags" : [],
+  "printable" : true,
+  "rarity" : "Common",
+  "objectType" : "loungeable",
+
+  "description" : "A round, silky cushion.",
+  "shortdescription" : "Arachne Cusion",
+  
+  "apexDescription" : "A silky, round cushion. Surprisingly not sticky.",
+  "arachneDescription" : "A low cushion to rest and spread one's legs.",
+  "avaliDescription" : "Ooh! Wait, are the Arachne trying to trap me by tempting me with a good cushion! I'm not falling for it!",
+  "avianDescription" : "A silky cushion, sitting on the floor.",
+  "floranDescription" : "Floran sssit on pillow. No ssstick.",
+  "glitchDescription" : "Cautious. This cushion seems harmless enough.",
+  "humanDescription" : "A nice silk cushion, I... shouldn't stick to this.",
+  "hylotlDescription" : "A white cushion with purple highlights. Somewhat elegant.",
+  "novakidDescription" : "Now here's a good spot to rest yer tush on, hopefully not for too long.",
+  
+  "race" : "arachne",
+  "category" : "furniture",
+
+  "inventoryIcon" : "arachnecushionicon.png",
+  "orientations" : [
+    {
+      "image" : "arachnecushion.png",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [8, 16]
+    },
+    {
+      "image" : "arachnecushion.png",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [8, 16]
+    }
+  ],
+  "sitFlipDirection" : false
+}

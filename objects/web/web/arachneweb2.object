@@ -1,0 +1,55 @@
+{
+  "objectName" : "arachneweb2",
+  "colonyTags" : ["arachne","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+
+  "description" : "A thick clump of webbing in the corner.",
+  "shortdescription" : "Cobweb",
+  "race" : "arachne",
+
+  "apexDescription" : "A lump of cobweb in the upper corner. This would be a cleanliness violation in a Miniknog facility.",
+  "arachneDescription" : "A place just doesn't feel like home until you hang some webbing in the corner.",
+  "avaliDescription" : "Right... Stay away from the corner.",
+  "avianDescription" : "I feel like this could catch more than just bugs.",
+  "floranDescription" : "Sssticky trap.",
+  "glitchDescription" : "Concerned. These webs would wreak havoc on my chassis.",
+  "humanDescription" : "Eeeeew, nooooooo.",
+  "hylotlDescription" : "Hm, it appears as though some cleaning needs to be done.",
+  "novakidDescription" : "Nothin' a good ol' dustin' can't fix.",
+
+  "inventoryIcon" : "arachneweb2icon.png",
+  "orientations" : [
+    {
+      "image" : "arachneweb2.png",
+      "imagePosition" : [0, 0],
+	  "direction" : "left",
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3] ],
+      "fgAnchors" : [ [-1, 0], [-1, 3], [0, 4], [2, 4] ]
+    },
+	{
+	  "image" : "arachneweb2.png",
+      "imagePosition" : [-16, 0],
+	  "direction" : "right",
+	  "flipImages" : true,
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3], [-1, 2], [-1, 3], [-2, 3] ],
+      "fgAnchors" : [ [1, 0], [1, 3], [0, 4], [-2, 4] ]
+	},
+	{
+      "image" : "arachneweb2ground.png",
+      "imagePosition" : [0, 0],
+	  "direction" : "left",
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [2, 0] ],
+      "fgAnchors" : [ [-1, 3], [-1, 0], [0, -1], [2, -1] ]
+    },
+	{
+	  "image" : "arachneweb2ground.png",
+      "imagePosition" : [-16, 0],
+	  "direction" : "right",
+	  "flipImages" : true,
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3], [-1, 0], [-1, 1], [-2, 0] ],
+      "fgAnchors" : [ [1, 3], [1, 0], [0, -1], [-2, -1] ]
+	}
+  ]
+}

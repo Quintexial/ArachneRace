@@ -99,7 +99,14 @@
 	  { "item" : "arachnebeanbag" },
 	  { "item" : "arachnebeanbag2" },
 	  { "item" : "arachnebeanbag3" },
+	  { "item" : "arachnecushion" },
 	  { "item" : "arachnewebchest" },
+	  { "item" : "arachneweb1" },
+	  { "item" : "arachneweb2" },
+	  { "item" : "arachneweb3" },
+	  { "item" : "arachneweb4" },
+	  { "item" : "arachneweb5" },
+	  { "item" : "arachneweb6" },
 
 // Furniture Table 2
       { "item" : "humanstoragelocker" },

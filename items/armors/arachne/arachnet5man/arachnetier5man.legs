@@ -22,7 +22,7 @@
     {
       "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
       "stat" : "protection",
-      "amount" : 0.3
+      "amount" : 0.2
     },
     {
       "levelFunction" : "manipulatorArmorLevelMaxEnergyMultiplier",
